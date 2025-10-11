@@ -1,8 +1,10 @@
-package com.java.design.patterns.structural.bridge;
+package com.java.design.patterns.structural.bridge.implementation.layer;
+
+import com.java.design.patterns.structural.bridge.bridge.MusicDevice;
 
 import java.util.ArrayList;
 
-public class MobileMusicPlayer implements MusicDevice{
+public class MobileMusicPlayer implements MusicDevice {
 
 	private int volume = 5;
 

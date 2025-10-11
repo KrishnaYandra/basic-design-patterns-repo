@@ -1,5 +1,10 @@
 package com.java.design.patterns.structural.bridge;
 
+import com.java.design.patterns.structural.bridge.abstraction.layer.BudsMusicController;
+import com.java.design.patterns.structural.bridge.abstraction.layer.MobileMusicController;
+import com.java.design.patterns.structural.bridge.bridge.MusicDevice;
+import com.java.design.patterns.structural.bridge.implementation.layer.MobileMusicPlayer;
+
 public class TestMusicController {
 public static void main(String[] args) {
 	//This below code shows that switching of implementation is seamless

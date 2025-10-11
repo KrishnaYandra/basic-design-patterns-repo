@@ -1,6 +1,9 @@
-package com.java.design.patterns.structural.bridge;
+package com.java.design.patterns.structural.bridge.abstraction.layer;
 
-public class MobileMusicController extends MusicController{
+import com.java.design.patterns.structural.bridge.bridge.MusicController;
+import com.java.design.patterns.structural.bridge.bridge.MusicDevice;
+
+public class MobileMusicController extends MusicController {
     public MobileMusicController(MusicDevice musicDevice) {
         super(musicDevice);
     }

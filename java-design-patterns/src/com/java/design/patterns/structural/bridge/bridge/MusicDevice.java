@@ -1,6 +1,6 @@
-package com.java.design.patterns.structural.bridge;
+package com.java.design.patterns.structural.bridge.bridge;
 
-interface MusicDevice {
+public interface MusicDevice {
 	
 	public void volumeUp();
 

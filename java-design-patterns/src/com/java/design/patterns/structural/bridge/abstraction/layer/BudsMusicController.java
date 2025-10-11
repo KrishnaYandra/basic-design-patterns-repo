@@ -1,4 +1,7 @@
-package com.java.design.patterns.structural.bridge;
+package com.java.design.patterns.structural.bridge.abstraction.layer;
+
+import com.java.design.patterns.structural.bridge.bridge.MusicController;
+import com.java.design.patterns.structural.bridge.bridge.MusicDevice;
 
 public class BudsMusicController extends MusicController {
 
