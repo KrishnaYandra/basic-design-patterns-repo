@@ -1,4 +1,4 @@
-package com.java.design.patterns.behavioral.mediator.pattern.mediator;
+package com.java.design.patterns.behavioral.mediator.mediator;
 
 public interface MachineMediator {
     void start();

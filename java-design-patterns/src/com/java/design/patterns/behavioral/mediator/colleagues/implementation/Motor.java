@@ -1,4 +1,4 @@
-package com.java.design.patterns.behavioral.mediator.pattern.colleagues.implementation;
+package com.java.design.patterns.behavioral.mediator.colleagues.implementation;
 
 public class Motor {
     public void startMotor() {

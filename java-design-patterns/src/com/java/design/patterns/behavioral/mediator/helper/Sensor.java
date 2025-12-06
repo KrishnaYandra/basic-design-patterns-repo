@@ -1,4 +1,4 @@
-package com.java.design.patterns.behavioral.mediator.pattern.helper;
+package com.java.design.patterns.behavioral.mediator.helper;
 
 public class Sensor {
     public boolean checkTemperature(int temp) {

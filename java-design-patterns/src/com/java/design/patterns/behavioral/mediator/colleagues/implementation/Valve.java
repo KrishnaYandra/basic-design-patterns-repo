@@ -1,7 +1,7 @@
-package com.java.design.patterns.behavioral.mediator.pattern.colleagues.implementation;
+package com.java.design.patterns.behavioral.mediator.colleagues.implementation;
 
-import com.java.design.patterns.behavioral.mediator.pattern.mediator.MachineMediator;
-import com.java.design.patterns.behavioral.mediator.pattern.colleagues.Colleague;
+import com.java.design.patterns.behavioral.mediator.mediator.MachineMediator;
+import com.java.design.patterns.behavioral.mediator.colleagues.Colleague;
 
 public class Valve implements Colleague {
     private MachineMediator mediator;

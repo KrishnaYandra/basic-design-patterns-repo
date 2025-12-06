@@ -1,8 +1,13 @@
-package com.java.design.patterns.behavioral.mediator.pattern;
+package com.java.design.patterns.behavioral.mediator;
 
+import com.java.design.patterns.behavioral.mediator.colleagues.implementation.*;
+import com.java.design.patterns.behavioral.mediator.helper.Sensor;
+import com.java.design.patterns.behavioral.mediator.helper.SoilRemoval;
+import com.java.design.patterns.behavioral.mediator.mediator.MachineMediator;
+import com.java.design.patterns.behavioral.mediator.mediator.implementation.CottonMediator;
+import com.java.design.patterns.behavioral.mediator.mediator.implementation.DenimMediator;
 import com.java.design.patterns.behavioral.mediator.pattern.colleagues.implementation.*;
 import com.java.design.patterns.behavioral.mediator.pattern.helper.*;
-import com.java.design.patterns.behavioral.mediator.pattern.mediator.*;
 import com.java.design.patterns.behavioral.mediator.pattern.mediator.implementation.*;
 
 public class TestWashingMachine {
