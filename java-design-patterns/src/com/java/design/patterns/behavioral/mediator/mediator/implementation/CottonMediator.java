@@ -6,8 +6,8 @@ import com.java.design.patterns.behavioral.mediator.colleagues.implementation.Mo
 import com.java.design.patterns.behavioral.mediator.colleagues.implementation.Valve;
 import com.java.design.patterns.behavioral.mediator.helper.Sensor;
 import com.java.design.patterns.behavioral.mediator.helper.SoilRemoval;
-import com.java.design.patterns.behavioral.mediator.pattern.colleagues.implementation.*;
-import com.java.design.patterns.behavioral.mediator.pattern.helper.*;
+import com.java.design.patterns.behavioral.mediator.colleagues.implementation.*;
+import com.java.design.patterns.behavioral.mediator.helper.*;
 import com.java.design.patterns.behavioral.mediator.mediator.MachineMediator;
 
 public class CottonMediator implements MachineMediator {

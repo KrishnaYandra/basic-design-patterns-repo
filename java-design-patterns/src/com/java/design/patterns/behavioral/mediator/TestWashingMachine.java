@@ -6,9 +6,9 @@ import com.java.design.patterns.behavioral.mediator.helper.SoilRemoval;
 import com.java.design.patterns.behavioral.mediator.mediator.MachineMediator;
 import com.java.design.patterns.behavioral.mediator.mediator.implementation.CottonMediator;
 import com.java.design.patterns.behavioral.mediator.mediator.implementation.DenimMediator;
-import com.java.design.patterns.behavioral.mediator.pattern.colleagues.implementation.*;
-import com.java.design.patterns.behavioral.mediator.pattern.helper.*;
-import com.java.design.patterns.behavioral.mediator.pattern.mediator.implementation.*;
+import com.java.design.patterns.behavioral.mediator.colleagues.implementation.*;
+import com.java.design.patterns.behavioral.mediator.helper.*;
+import com.java.design.patterns.behavioral.mediator.mediator.implementation.*;
 
 public class TestWashingMachine {
     public static void main(String[] args) {
